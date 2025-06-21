@@ -1,0 +1,71 @@
+## Ignore build output
+bin/
+obj/
+out/
+build/
+[Bb]uild/
+[Bb]uilds/
+
+## Ignore Rider/VS Code/VS user settings
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore logs and diagnostics
+*.log
+*.tlog
+*.patch
+
+## Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.sln.docstates
+
+## Ignore package directories
+packages/
+node_modules/
+
+## Ignore publish output
+wwwroot/dist/
+wwwroot/build/
+*.publish/
+
+## Ignore secret or local config files
+appsettings.Development.json
+secrets.json
+
+## OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Ignore test results
+TestResults/
+*.coverage
+*.coveragexml
+
+## Ignore lock and cache files
+project.lock.json
+project.fragment.lock.json
+
+## Ignore dotnet tools/restore artifacts
+*.vs/
+.vs/
+*.dbmdl
+*.pidb
+
+## Optional: Include only specific file types
+!*.cs
+!*.csproj
+!*.sln
+!*.json
+!*.config
+!*.xml
+!*.md
